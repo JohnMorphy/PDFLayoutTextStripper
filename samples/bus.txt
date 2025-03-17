@@ -4,8 +4,7 @@
                                           Villeneuve       -  Vevey                                                                                 
                                                                                                           DIMANCHE     et  fêtes                    
                                             H      LUNDI  AU  VENDREDI               SAMEDI                                                         
-           0' Vevey   Gare                                                                                                                          
-                                                                                                               générales                            
+           0' Vevey   Gare                                                                                     générales                            
            2' L'Union                                                                                                                               
            3' Bergère                      05    42 50                       42  50                                                                 
                                                                                                                                                     
@@ -51,17 +50,14 @@
                                                                                                                                                     
                                            19    09 19  39  58               09  19  38  58             09 19  38  58                               
                                                                                                                                                     
-         Arrêt sur  demande                                                                                                                         
-                                           20    18 40                       18  40                     18 40                                       
+         Arrêt sur  demande                20    18 40                       18  40                     18 40                                       
                                                                                                                                                     
     SONT CONSIDERES  COMME   JOURS  DE                                                                                                              
                                            21    00 20  40                   00  20  40                 00 20  40                                   
     FETES:Nouvel-An,  2 janvier,  Vendredi                                                                                                          
-    Saint,  Lundi  de  Pâques,  Ascension,                                                                                                          
-                                           22    00 20  40                   00  20  40                 00 20  40                                   
+    Saint,  Lundi  de  Pâques,  Ascension, 22    00 20  40                   00  20  40                 00 20  40                                   
     Lundi  de  Pentecôte,  1er août, Lundi du                                                                                                       
-    Jeûne  Fédéral,  Noël                                                                                                                           
-                                           23    00 20  40  56               00  20  40  56             00 20  40  56                               
+    Jeûne  Fédéral,  Noël                  23    00 20  40  56               00  20  40  56             00 20  40  56                               
                                                                                                                                                     
                                                                                                                                                     
                                            24    36                          36                                                                     
@@ -73,8 +69,7 @@
                                                                                                                                                     
                                                                                                                                                     
                                                                                                                                                     
-                                        l                                                                                                           
-                                          X  Circule  durant   les nuits  du  vendredi   au  samedi,   du  samedi    au                             
+                                        l X  Circule  durant   les nuits  du  vendredi   au  samedi,   du  samedi    au                             
                                           dimanche     et du  31.12   au  01.01                                                                     
                                                                                                                                                     
                                                                                                                                                     
@@ -86,6 +81,4 @@
                                         l INFO-VENTE:Montreux-Vevey      Tourisme   Grand-Place  29 Vevey                                           
                                                                                                                                                     
                                                                                                                                                     
-                                        l                                                                                                           
-                                          PARTENAIRE     SURFCARD:Naville     St-Antoine Av. Général Guisan  15 Vevey Temps de parcours approximatif
-
+                                        l PARTENAIRE     SURFCARD:Naville     St-Antoine Av. Général Guisan  15 Vevey Temps de parcours approximatif

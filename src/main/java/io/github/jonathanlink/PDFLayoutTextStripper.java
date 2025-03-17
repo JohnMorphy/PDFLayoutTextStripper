@@ -114,7 +114,7 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
      * In order to get rid of the warning:
      * TextPositionComparator class should implement Comparator<TextPosition> instead of Comparator
      */
-    @SuppressWarnings("unchecked")
+    
     private void sortTextPositionList(final List<TextPosition> textList) {
         TextPositionComparator comparator = new TextPositionComparator();
         Collections.sort(textList, comparator);
@@ -178,6 +178,9 @@ public class PDFLayoutTextStripper extends PDFTextStripper {
 
         if ( textYPosition > previousTextYPosition && (textYPosition - previousTextYPosition > 5.5) ) {
             double height = textPosition.getHeight();
+            if(height == 0.0){
+                height = 1;
+            }
             int numberOfLines = (int) (Math.floor( textYPosition - previousTextYPosition) / height );
             numberOfLines = Math.max(1, numberOfLines - 1); // exclude current new line
             if (DEBUG) System.out.println(height + " " + numberOfLines);
@@ -283,8 +286,7 @@ class TextLine {
         if ( ! this.isNewIndexGreaterThanLastIndex(index) ) {
             nextValidIndex = lastIndex + 1;
         }
-        if ( !isCharacterPartOfPreviousWord && this.isSpaceCharacterAtIndex(index - 1) ) {
-            nextValidIndex = nextValidIndex + 1;
+        if ( !isCharacterPartOfPreviousWord && (index > 0) && this.isSpaceCharacterAtIndex(index - 1) ) {    nextValidIndex = nextValidIndex + 1;
         }
         this.setLastIndex(nextValidIndex);
         return nextValidIndex;

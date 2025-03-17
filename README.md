@@ -1,5 +1,8 @@
 # PDFLayoutTextStripper
 
+This project is a fork of [PDFLayoutTextStripper](https://github.com/JonathanLink/PDFLayoutTextStripper) by Jonathan Link, used under the Apache License 2.0.
+
+
 Converts a PDF file into a text file while keeping the layout of the original PDF. Useful to extract the content from a table or a form in a PDF file. PDFLayoutTextStripper is a subclass of PDFTextStripper class (from the [Apache PDFBox](https://pdfbox.apache.org/) library).
 
 ## Use cases
@@ -30,8 +33,8 @@ commons-logging.jar and fontbox
 ### How to use on Linux/Mac
 ```
 cd PDFLayoutTextStripper
-javac -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar *.java
-java -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/PDFLayoutTextStripper/fontbox-2.0.6.jar test
+javac -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/fontbox-2.0.6.jar *.java
+java -cp .:/pathto/pdfbox-2.0.6.jar:/pathto/commons-logging-1.2.jar:/pathto/fontbox-2.0.6.jar test
 ```
 
 ### How to use on Windows
